@@ -1,5 +1,9 @@
 /* Universal styles */
 
+.mission {
+  border: solid skyblue 1px;
+}
+
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -11,25 +15,42 @@ body {
 
 /* Header styles*/
 
-.header {
+header {
   display: flex;
-  position: fixed;
+  position:fixed;
+  top: 0;
   height: 69px;
   width: 100%;
   align-items: center;
   justify-content: space-between;
   border-bottom: solid seashell 1px;
+
 }
 
-.header nav {
+header nav {
   margin-right: 30px;
 }
 
 a {
   color: seashell;
+  margin-left: 20px;
 }
 
 .logo img {
   height: 50px;
   margin-left: 10px;
+}
+
+/* Main Content */
+
+
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  margin: 69px auto 0 auto;
+  background-image: url("./img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
