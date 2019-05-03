@@ -92,14 +92,23 @@ a {
 .tea_box  {
   width: 300px;
   text-align: center;
-  border: solid blue 1px;
 }
 
 .tea_box h4 {
   margin-top: 10px;
 }
 
+#spiced_rum_tea {
+  margin: 0 50px 0 50px;
+}
 
+#myrtle {
+  margin-right: 25px;
+}
+
+#bedford {
+  margin-left: 25px;
+}
 
 
 /* Bottom section - Locations */
