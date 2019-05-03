@@ -25,6 +25,7 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: solid seashell 1px;
+  background-color: black;
 
 }
 
@@ -44,6 +45,7 @@ a {
 
 /* Main Content */
 
+/* Top section - Mission */
 
 .mission {
   display: flex;
@@ -52,6 +54,7 @@ a {
   height: 700px;
   margin: 69px auto 0 auto;
   background-image: url("./img-mission-background.jpg");
+  background-size: 700 1200px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -64,10 +67,42 @@ a {
   text-align: center;
 }
 
+/* Middle section - Tea of the Month */
+
+.tea {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tea_text {
+  text-align: center;
+}
+
+.tea_images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .tea_images img {
   height: 200px;
   width: 300px;
 }
+
+.tea_box  {
+  width: 300px;
+  text-align: center;
+  border: solid blue 1px;
+}
+
+.tea_box h4 {
+  margin-top: 10px;
+}
+
+
+
+
+/* Bottom section - Locations */
 
 .location_boxes {
   height: 300px;
