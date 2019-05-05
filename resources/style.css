@@ -113,9 +113,35 @@ a {
 
 /* Bottom section - Locations */
 
-.location_boxes {
+.bottom_section h2 {
+  border: solid blue 1px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.bottom_section {
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.locations {
+  display: flex;
+  justify-content: center;
+  border: solid blue 1px;
+}
+
+.location_box {
   height: 300px;
   width: 300px;
   background-color: black;
   opacity: 1;
+  text-align: center;
+  margin: 0 20px;
+  border: solid blue 1px;
 }
