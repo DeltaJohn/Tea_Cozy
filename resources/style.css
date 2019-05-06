@@ -71,7 +71,7 @@ a {
 
 .tea {
   width: 1000px;
-  margin: 0 auto;
+  margin: 70px auto;
 }
 
 .tea_text {
@@ -117,6 +117,7 @@ a {
   border: solid blue 1px;
   width: 100%;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 
