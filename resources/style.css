@@ -148,3 +148,21 @@ a {
   margin: 15px 20px;
   border: solid blue 1px;
 }
+
+
+/* Footer */
+
+
+.footer_contact {
+  height: 200px;
+  width: auto;
+  text-align: center;
+}
+
+.footer_copyright {
+  text-align: left;
+}
+
+.footer_copyright h5 {
+  margin-left: 20px;
+}
